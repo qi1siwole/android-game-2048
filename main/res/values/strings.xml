@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">2048</string>
+
+    <string name="restart">Restart</string>
+
+    <string name="toast_up">↑</string>
+    <string name="toast_down">↓</string>
+    <string name="toast_left">←</string>
+    <string name="toast_right">→</string>
+    <string name="toast_game_over">Game Over!</string>
+</resources>

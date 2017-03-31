@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.pw.qi1siwole.game2048.Game2048Layout
+        android:id="@+id/game_2048_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"
+        android:padding="10dp"
+        >
+
+    </com.pw.qi1siwole.game2048.Game2048Layout>
+
+    <Button
+        android:id="@+id/restart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:layout_alignLeft="@id/game_2048_layout"
+        android:layout_above="@id/game_2048_layout"/>
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:    0"
+        android:layout_alignRight="@id/game_2048_layout"
+        android:layout_alignTop="@id/restart_button"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="#e7bfaa"/>
+
+</RelativeLayout>
